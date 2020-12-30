@@ -4,13 +4,27 @@
 Welcome to OSCRE! This platform is motivated by the need for open, affordable, and upgradeable/adaptable instrumention to provide microphysics observations for science and educational goals. As the name implies, OSCRE was originally developed to image falling and blowing snow. Components of the system include:
 * Machine vision camera + lens
 * LED strobe light
-* GPU Computer
+* Computer
 * Off-the-shelf housings mounted to a DIY wood structure
 * 3D-printed parts
-* Assorted connecting cables
+* Connecting cables
 
 Within this repository, you will find all of the information needed to purchase parts and build OSCRE.  Example code to obtain images from the camera are also provided. Contributors are welcomed across all fronts ranging from hardware to sofware. 
 
+## Overview of Components and Specifications
+
+
+## Camera and Lens
+
+## Computer
+
+## Housings and Structure
+
+## 3D-printed parts
+
+## Connecting cables
+
+## Software and installation
 
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
