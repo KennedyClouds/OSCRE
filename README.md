@@ -38,12 +38,10 @@ Instead, development shifted to FLIR for the model documented herein. The FLIR S
 
 ### *Lens*
 
-![lens](https://github.com/KennedyClouds/OSCRE/blob/main/images/Rokinon_lens.png){:height="50%" width="50%"}
-
+<img src="https://github.com/KennedyClouds/OSCRE/blob/main/images/Rokinon_lens.png" width="300">
 OSCRE uses a Rokinon 135mm f/2 lens with manual aperture and focus controls. https://www.bhphotovideo.com/c/product/1110678-REG/rokinon_135m_n_135mm_f_2_0_lens_for.html This is a larger lens designed for traditional cameras. Compared to many (most) machine vision camera lenses, the larger size allows the camera system to only utilize the very center of the optics yielding virtually distortion free images. In other words, a hydrometeor imaged anywhere within the frame will be identical in size. Further, there are no concerns with optical quality (resolution) if the camera is upgraded to a higher resolution sensor in the future. The Rokinon lens is available in a variety of camera mounts. Both Canon (EF) and Nikon (F) have been used. Note that either lens requires an adapter from the parent mount to the C-mount thread the machine vision camera provides. 
 
-![adapter](https://github.com/KennedyClouds/OSCRE/blob/main/images/lens_adapter.png){:height="50%" width="50%"}
-
+<img src="https://github.com/KennedyClouds/OSCRE/blob/main/images/lens_adapter.png" width="100">
 ## Computer
 
 ## Housings and Structure
