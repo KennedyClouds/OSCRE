@@ -1,6 +1,6 @@
 ## Documentation for the Open Snowflake Camera for Research and Education (OSCRE)
 
-![](C:\GitHub\OSCRE\images\OSCRE_banner.png)
+![](images\OSCRE_banner.png)
 
 Welcome to OSCRE! This platform is motivated by the need for open, affordable, and upgradeable/adaptable instrumention to provide microphysics observations for science and educational goals. As the name implies, OSCRE was originally developed to image falling and blowing snow. Components of the system include:
 * Machine vision camera + lens
