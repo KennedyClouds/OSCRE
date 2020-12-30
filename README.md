@@ -2,7 +2,7 @@
 
 ![banner](https://github.com/KennedyClouds/OSCRE/blob/main/images/OSCRE_banner.png)
 
-Welcome to OSCRE! This platform is motivated by the need for open, affordable, and upgradeable/adaptable instrumention to provide microphysical observations for science and educational goals. As the name implies, OSCRE was originally developed to image falling and blowing snow. Components of the system include:
+Welcome to OSCRE! This platform is motivated by the need for open, affordable, and upgradeable/adaptable instrumentation to provide microphysical observations for science and educational goals. As the name implies, OSCRE was originally developed to image falling and blowing snow. Components of the system include:
 * Machine vision camera + lens
 * LED strobe light
 * Computer
@@ -10,7 +10,7 @@ Welcome to OSCRE! This platform is motivated by the need for open, affordable, a
 * 3D-printed parts
 * Connecting cables
 
-Within this repository, you will find all of the information needed to purchase parts and build OSCRE.  Example code to obtain images from the camera are also provided. Contributors are welcomed across all fronts ranging from hardware to sofware. 
+Within this repository, you will find all of the information needed to purchase parts and build OSCRE.  Example code to obtain images from the camera are also provided. Contributors are welcomed across all fronts ranging from hardware to software. 
 
 ## Overview of Components and Specifications
 
