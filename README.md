@@ -1,6 +1,10 @@
 ## Documentation for the Open Snowflake Camera for Research and Education (OSCRE)
 
+<<<<<<< HEAD
 ![banner](https://github.com/KennedyClouds/OSCRE/blob/main/images/OSCRE_banner.png)
+=======
+![](images\OSCRE_banner.png)
+>>>>>>> 4f977ea99814907a7c25ab7b099c0972138abc03
 
 Welcome to OSCRE! This platform is motivated by the need for open, affordable, and upgradeable/adaptable instrumention to provide microphysics observations for science and educational goals. As the name implies, OSCRE was originally developed to image falling and blowing snow. Components of the system include:
 * Machine vision camera + lens
@@ -14,8 +18,35 @@ Within this repository, you will find all of the information needed to purchase 
 
 ## Overview of Components and Specifications
 
+Coming soon... 
 
 ## Camera and Lens
+
+### *Camera*
+
+OSCRE uses a **singular** machine vision camera to obtain images of hydrometeors. These types of cameras are lightweight and rugged, making them ideal for industrial applications such as barcode scanning and quality-assurance. A variety of manufacturers exist (Basler, FLIR, JAI, Ximea, etc.) and many of them have models that use identical image sensors from manufacturers such as Sony.
+
+In selecting an appropriate camera/sensor, the following considerations were made:
+
+- Affordability (<$1000 USD)
+- Imaging performance (CMOS, monochrome, global shutter, noise performance)
+- Minimum exposure time <= 10us (can minimize issues with lighting)
+- Adequate General Purpose Input/Output (GPIO) control (this provides the signal to the LED light)
+- Software compatibility with ARM architecture (Nvidia GPU computers)
+- Adequate frame rate (30+fps)
+- Connectivity (USB3)
+
+A quick perusal of any of the manufacturers will yield a mind boggling number of choices. The original testbed used a JAI GO-2400M-USB 2.3MP camera, and this is a perfectly acceptable camera for obtaining images. The downside of this camera is a software SDK free for Windows, but requires an expensive (~$500) computer specific license for other architecture. Supposedly this is changing in 2021, but documentation for the 3rd party SDK is also limited.  
+
+Instead, development shifted to FLIR for the model documented herein. The FLIR Spinnaker SDK https://www.flir.com/products/spinnaker-sdk/ is available for all platforms which means you could use any computer you already own to drive the system assuming the hardware is adequate. Based on the criteria above, the Blackfly S line was selected. Balancing the requirements, the  BFS-U3-32S5M-C https://www.flir.com/products/blackfly-s-usb3/?model=BFS-U3-32S4M-C offered the best bang for the buck.  For under $800, the camera uses the Sony IMX252 monochrome sensor to acquire 3.2MP images at rates up to 118fps. The smaller 1/1.8" sensor is advantageous because it offers a longer focal length for a given resolution, increasing the depth of field compared to larger sensors. 
+
+### *Lens*
+
+![lens](https://github.com/KennedyClouds/OSCRE/blob/main/images/Rokinon_lens.png)
+
+OSCRE uses a Rokinon 135mm f/2 lens with manual aperture and focus controls. https://www.bhphotovideo.com/c/product/1110678-REG/rokinon_135m_n_135mm_f_2_0_lens_for.html This is a larger lens designed for traditional cameras. Compared to many (most) machine vision camera lenses, the larger size allows the camera system to only utilize the very center of the optics yielding virtually distortion free images. In other words, a hydrometeor imaged anywhere within the frame will be identical in size. Further, there are no concerns with optical quality (resolution) if the camera is upgraded to a higher resolution sensor in the future. The Rokinon lens is available in a variety of camera mounts. Both Canon (EF) and Nikon (F) have been used. Note that either lens requires an adapter from the parent mount to the C-mount thread the machine vision camera provides. 
+
+![adapter](https://github.com/KennedyClouds/OSCRE/blob/main/images/lens_adapter.png)
 
 ## Computer
 
