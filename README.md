@@ -2,7 +2,7 @@
 
 ![banner](https://github.com/KennedyClouds/OSCRE/blob/main/images/OSCRE_banner.png)
 
-Welcome to OSCRE! This platform is motivated by the need for open, affordable, and upgradeable/adaptable instrumention to provide microphysics observations for science and educational goals. As the name implies, OSCRE was originally developed to image falling and blowing snow. Components of the system include:
+Welcome to OSCRE! This platform is motivated by the need for open, affordable, and upgradeable/adaptable instrumention to provide microphysical observations for science and educational goals. As the name implies, OSCRE was originally developed to image falling and blowing snow. Components of the system include:
 * Machine vision camera + lens
 * LED strobe light
 * Computer
@@ -22,7 +22,7 @@ Coming soon...
 
 <img src="https://github.com/KennedyClouds/OSCRE/blob/main/images/blackflys.png" width="300">
 
-OSCRE uses a **singular** machine vision camera to obtain images of hydrometeors. These types of cameras are lightweight and rugged, making them ideal for industrial applications such as barcode scanning and quality-assurance. A variety of manufacturers exist (Basler, FLIR, JAI, Ximea, etc.) and many of them have models that use identical image sensors from manufacturers such as Sony.
+OSCRE uses a **singular** machine vision camera to obtain images of hydrometeors. These types of cameras are lightweight and rugged, making them ideal for industrial applications such as barcode scanning. A variety of manufacturers exist (Basler, FLIR, JAI, Ximea, etc.) and many of them have models that use identical image sensors from manufacturers such as Sony.
 
 In selecting an appropriate camera/sensor, the following considerations were made:
 
