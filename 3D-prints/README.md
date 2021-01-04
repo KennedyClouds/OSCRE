@@ -15,9 +15,9 @@ Included holes allow for adjustability when mounting to housing and other test p
 <img src="https://github.com/KennedyClouds/OSCRE/blob/main/images/3D_computer.png" width="300">
 
 The Xavier NX computer mount was built from scratch using my novice SCAD skills. The code isn't pretty, but it works.  Things to note:
-* The SCAD file includes a rotation to the build to simplify (reduce overhangs) and shortern printing time.
+* The SCAD file includes a rotation to the build to simplify (reduce overhangs) and shorten printing time.
 * Notches on the side of the enclosure allow for the clip to be attached. This prevents the Xavier NX from exiting the platform on accident.
-* You will note that tolerances for the unit could be made smaller. I left this in there to minimize issues with 3D printing calibrations. 
+* You will note that tolerances for the unit could be made smaller. I left this in there to minimize issues with 3D printer calibrations. 
 * Holes at the rear of the platform base allow for the mount to be screwed to pre-threaded holes in the Dotworkz housing.
 * Holes at the midpoint allow for additional attachment to the metal base in the housing, but I haven't used these. 
 
