@@ -3,7 +3,7 @@
 This document describes how to make the cables for OSCRE. 
 
 ## Power Cable
-Tools:  diagonal cutting pliers (~$10), wire stripping tool (~$10). Razor blade knife (~$10), smaller philips or flathead screwdriver ($5)
+Tools:  diagonal cutting pliers ~$10, wire stripping tool ~$10. Razor blade knife ~$10, smaller philips or flathead screwdriver ~$5.
 Supplies: One outdoor rated, 16/3 extension cable of desired length (I use 10').  Note: you may be able to find one with bare leads, but selection is usually limited. 
 
 ###### Step 1: 
