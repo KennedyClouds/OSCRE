@@ -48,7 +48,7 @@ OSCRE uses a [Rokinon 135mm f2 lens](https://www.bhphotovideo.com/c/product/1110
 
 ## Housings and Structure
 
-## Instructions for Construction 
+## Instructions to build OSCRE
 See: [Instructions readme](https://github.com/KennedyClouds/OSCRE/blob/main/Instructions/README.md)
 
 ## 3D-printed parts
