@@ -14,8 +14,6 @@ Within this repository, you will find all of the information needed to purchase 
 
 ## Overview of Components and Specifications
 
-Coming soon... 
-
 ## Camera and Lens
 
 ### *Camera*
@@ -50,14 +48,18 @@ OSCRE uses a [Rokinon 135mm f2 lens](https://www.bhphotovideo.com/c/product/1110
 
 ## Housings and Structure
 
-## 3D-printed parts
+## Instructions for Construction 
+See: [Instructions readme](https://github.com/KennedyClouds/OSCRE/blob/main/Instructions/README.md)
 
+## 3D-printed parts
 See: [3D Printing readme](https://github.com/KennedyClouds/OSCRE/blob/main/3D-prints/README.md)
 
 ## Connecting cables
+See: [Cables readme](https://github.com/KennedyClouds/OSCRE/blob/main/Cables/README.md)
 
 ## Software and installation
 
+Coming Soon! Contact me if assistance is needed prior to getting this section online. 
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
