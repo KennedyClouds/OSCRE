@@ -34,10 +34,12 @@ rotate([0,-90,0]) //to minimize overhangs, speed print. comment out if editing
         color("red") translate([31,0,th]) cube([8,10,30]); //for screw access 
         //Creates inset for Jetson 
         color("yellow") translate([th,1+th,camht+4]) cube([93,105,th+2]); //length, width, height
-        color("yellow") translate([th,1+th,camht+7]) cube([10,105,6]);
+        //color("pink") translate([th,1+th,camht+7]) cube([10,105,6]);
         //Idention for cables
-        color("blue") translate([97,15,camht+7]) cube([3,95,th*2]); //length, width, height  
+        color("blue") translate([97,15,camht+7]) cube([3,95,th*2]); //length, width, height
+         //Make access for power/led wires   
+          color("pink") translate([th-10,1+th,camht+7]) cube([20,105,7]);  
         //Name and Contact Info
-        color("pink")   translate([7,4,camht+16]) rotate ([90,0,90]) linear_extrude(height = 10)     text("OSCRE - aaron.kennedy@und.edu",size=5); 
+        color("pink")   translate([7,4,camht+17]) rotate ([90,0,90]) linear_extrude(height = 10)     text("OSCRE - aaron.kennedy@und.edu",size=5); 
 
  }
