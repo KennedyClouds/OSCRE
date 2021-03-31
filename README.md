@@ -14,6 +14,8 @@ Within this repository, you will find all of the information needed to purchase 
 
 ## Overview of Components and Specifications
 
+Parts, prices, and links to purchase are provided here: [Google Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRMlBapCWkLHQBSs0PFnScLlecqJcO5ei3qQ1w7xbT3gDOsDzhMCTewoKGWSilK1sk8NCsqLQS7hyFb/pubhtml)
+
 ## Camera and Lens
 
 ### *Camera*
