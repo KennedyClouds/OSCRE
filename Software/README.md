@@ -6,7 +6,7 @@ This section describes software to operate OSCRE and post-process data.
 A user account is required for the [Jetson Download Center](https://developer.nvidia.com/embedded/downloads). Follow instructions for creating a [Xavier NX card image](https://developer.nvidia.com/jetson-nx-developer-kit-sd-card-image). 
 
 ## FLIR (2nd gen)
-Cameras uses the Spinnaker SDK. Image capture can be controlled via the Spinview graphical GUI or via C+/Python scripts (work in progress). For IOPs, reccomend Spinview as this allows you 
+Cameras use the Spinnaker SDK. Image capture can be controlled via the Spinview graphical GUI or via C+/Python scripts (work in progress). For IOPs, reccomend Spinview as this allows you 
 to see images in realtime to make sure settings are correct. 
 Download and installation instructions are located [here](https://www.flir.com/products/spinnaker-sdk/). Configuration file coming soon. 
 
