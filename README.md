@@ -48,7 +48,11 @@ OSCRE uses a [Rokinon 135mm f2 lens](https://www.bhphotovideo.com/c/product/1110
 
 ## Computer
 
+OSCRE is driven by NVIDIA GPU computers. Currently, the system is designed upon the [Jetson Xavier NX Developer Kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) which retails for ~$400. Note that as of July 2021, these computers are on backorder due to chipset shortages, but this should be alleviated by the end of the year.  It is also possible to drive the camera system with the [Jetson Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/), but write performance is not as good due to the lack of a dedicated M.2 slot and slower CPU/GPU. Benchmarking for these platforms is on the to-do list... for educational purposes, the Nano may still be sufficient, as the OS and software will run on either platform. 
+
 ## Housings and Structure
+
+OSCRE uses dotworkz S-Type Ring of Fire De-Icing Camera Enclosures (ST-RF-MVP). These housings are waterproof and quite robust... thus far, they have survived two complete winters in North Dakota with no weatherproofing issues. Recently, these housings have been upgraded with stainless steel arms. This means older versions (which are just fine) can be found for discounts on sites such as EBay.  
 
 ## Instructions to build OSCRE
 See: [Instructions readme](https://github.com/KennedyClouds/OSCRE/blob/main/Instructions/README.md)
