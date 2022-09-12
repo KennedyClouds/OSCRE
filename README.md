@@ -48,7 +48,8 @@ OSCRE uses a [Rokinon 135mm f2 lens](https://www.bhphotovideo.com/c/product/1110
 
 ## Computer
 
-OSCRE is driven by NVIDIA GPU computers. Currently, the system is designed upon the [Jetson Xavier NX Developer Kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) which retails for ~$400. Note that as of July 2021, these computers are on backorder due to chipset shortages, but this should be alleviated by the end of the year.  It is also possible to drive the camera system with the [Jetson Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/), but write performance is not as good due to the lack of a dedicated M.2 slot and slower CPU/GPU. Benchmarking for these platforms is on the to-do list... for educational purposes, the Nano may still be sufficient, as the OS and software will run on either platform. 
+OSCRE is driven by NVIDIA GPU computers. Currently, the system is designed upon the [Jetson Xavier NX Developer Kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) which retails for ~$400. Note that as of July 2021, these computers are on backorder due to chipset shortages.  It is also possible to drive the camera system with the [Jetson Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/), but write performance is not as good due to the lack of a dedicated M.2 slot and slower CPU/GPU. Benchmarking for these platforms is on the to-do list... for educational purposes, the Nano may still be sufficient, as the OS and software will run on either platform. 
+Fall 2022 Update: Best option for the computer is now the [reComputer](https://www.seeedstudio.com/Jetson-10-1-H0-p-5335.html) provided by Seeed.  The internal computer can be removed from the housing and placed into the 3D printed bracket.  Both Nano and Xavier NX kits provide slots for m.2 SSDs! Prices range from $260-$600. 
 
 ## Housings and Structure
 
