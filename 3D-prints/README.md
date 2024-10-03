@@ -2,33 +2,25 @@
 
 ![banner](https://github.com/KennedyClouds/OSCRE/blob/main/images/3D_complete.png)
 
-Within this directory you will find files that will allow you to print the lens and computer mounts. Files are provided in both [openSCAD](https://www.openscad.org/) format and as STL files. 
+Within this directory you will find files that will allow you to print the lens and computer mounts. Files are provided in both [openSCAD](https://www.openscad.org/) format and as STL files. Use supports whenever neccesary.
 
 
 ## Overview of parts
 
-<img src="https://github.com/KennedyClouds/OSCRE/blob/main/images/3D_lens.png" width="300">
+<img src="https://github.com/KennedyClouds/OSCRE/blob/main/images/OSCRE_lens-cam_bottom_plate.png" width="500">
+<img src="https://github.com/KennedyClouds/OSCRE/blob/main/images/OSCRE_lens_top_plate.png" width="500">
+<img src="https://github.com/KennedyClouds/OSCRE/blob/main/images/OSCRE_FLIR_clip.png" width="500">
 
-The lensholder is built upon the [Astroschelle](https://github.com/dakloifarwa/Astroschelle-SY135) lens mount for Samyang/Walimex/Rokinon 135mm lenses. The original SCAD file was modified to include a base. 
-Included holes allow for adjustability when mounting to housing and other test platforms. The center position is used to mount it within the Dotworkz housing. 
+The lensholder is designed to fit 5mm hardware. The bottom plate is first bolted to the metal plate of the Dotworkz platform. The lens and adapter is then attached to the camera and the 5mm extension tube. This is then set into the bottom plate and secured by bolting the top plate and adding the clip over the camera. Note that Dotworkz platforms sometimes have different length build plates depending on the model purchased. Exact positions may vary slightly and washers my be needed to securerly fasten to the metal plate. The front of the lens should be ~1.5cm distant from the front of the housing. 
 
-<img src="https://github.com/KennedyClouds/OSCRE/blob/main/images/3D_computer.png" width="300">
+<img src="https://github.com/KennedyClouds/OSCRE/blob/main/images/OSCRE_computer_mount.png" width="300">
 
-The Xavier NX computer mount was built from scratch using my novice SCAD skills. The code isn't pretty, but it works.  Things to note:
-* The SCAD file includes a rotation to the build to simplify (reduce overhangs) and shorten printing time.
-* Notches on the side of the enclosure allow for the clip to be attached. This prevents the Xavier NX from exiting the platform on accident.
-* You will note that tolerances for the unit could be made smaller. I left this in there to minimize issues with 3D printer calibrations. 
-* Holes at the rear of the platform base allow for the mount to be screwed to pre-threaded holes in the Dotworkz housing.
-* Holes at the midpoint allow for additional attachment to the metal base in the housing, but I haven't used these. 
-
-<img src="https://github.com/KennedyClouds/OSCRE/blob/main/images/3D_clip.png" width="300">
-
-The clip has tighter tolerances in the horizontal to firmly secure it to the platform. Ample vertical tolerance is included to allow it to be attached.
+The computer should first be attached to the mount. An additional clip is provided for additional security. The platform is secured with #8 screws to the predrilled holes in the DotWorkz housing.  
 
 ## Tips and Tricks for Printing
-* All prints were tested on a budget Creality Ender3 printer in PLA. Except for wall thickness (2mm), default options are used within [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura) to create the GCODE files from the STLs. 
-* If you are a novice to 3D-printing, I like to use wide (3") painters tape on the printer bed to aid adhesion and ease removal. 
-* Be careful removing overhangs so parts aren't damaged. This is primarily a concern with the smaller clip. 
+
+* Prints have been made on Creality Ender3 and Prusa MK3+ printers. PETG or PLA can be used (I prefer PETG).
+* Make sure to use build supports. These can be carefully broken away or trimmed off after printing. 
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
