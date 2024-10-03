@@ -2,7 +2,7 @@
 
 ![banner](https://github.com/KennedyClouds/OSCRE/blob/main/images/3D_complete.png)
 
-Within this directory you will find files that will allow you to print the lens and computer mounts. Files are provided in both [openSCAD](https://www.openscad.org/) format and as STL files. Use supports whenever neccesary.
+Within this directory you will find files that will allow you to print the lens and computer mounts. Files are provided in both [openSCAD](https://www.openscad.org/) and \ STL formats. These should place nice with any slicer of your choosing. 
 
 
 ## Overview of parts
